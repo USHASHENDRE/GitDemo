@@ -25,6 +25,7 @@ public class FirstServlet extends GenericServlet {
 				     "</body></html>");
 		out.flush();
 		out.close();
+		System.out.println("THIS IS THE NEW CODE WHICH IS ADDED EXTRA");
 	}
 }
 //  //private static final long serialVersionUID = 1L;
